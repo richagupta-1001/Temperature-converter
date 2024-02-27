@@ -10,8 +10,7 @@ button.addEventListener("click", (e) => {
   e.preventDefault();
   converttoCelsius();
   // add load feature
-  button.innerHTML =
-    "<span><i class='fa fa-spinner fa-spin'></i>Converting</span>";
+
   setTimeout(() => {
     button.innerHTML = "<span>Convert</span>";
   }, 1000);
